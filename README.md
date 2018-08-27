@@ -20,9 +20,8 @@
   <p> Below is a list of all the projects I am currently working on as they are completed they will become available on my Github for viewing. </p> 
   
   <ul style="list-style-type:disc">
-    <li>Coffee</li>
-    <li>Tea</li>
-    <li>Milk</li>
+    <li>Campus Tour guide (android application and possibly IOS in futre)</li>
+    <li> TBC </li>
   </ul>
   
   <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
