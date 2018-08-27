@@ -14,4 +14,19 @@
   <p> One of the areas I was exposed to during my degree was application development specifically android programing, I hope to in the near future gain some experience in IOS application development. One of the most exciting projects I have worked on to date was an that is used for navigation, I am currently working on bettering this app to allow more features that have real world value.   </p> 
  
  </body>
+ 
+ <body>
+  <h2> Current projects and Linkedin </h2>
+  
+  <p> Below is a list of all the projects I am currently working on as they are completed they will become available on my Github for viewing. </p> 
+  
+  <ul style="list-style-type:disc">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+  </ul>
+  
+  <a href="www.linkedin.com/in/ruan-van-schalkwyk-800a65150">My Linkedin Profile</a>
+ </body>
+ 
 </html> 
