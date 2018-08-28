@@ -1,8 +1,11 @@
 <html> 
   <head> 
     <h1> Ruan van Schalkwyk </h1> 
-    <style> 
-      body {background-color: powderblue;}
+    <style type="text/css"> 
+      body {
+      background-color: #d8da3d
+      color: purple; 
+            }
     </style> 
   </head> 
 
