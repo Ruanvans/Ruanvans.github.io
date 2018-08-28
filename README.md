@@ -2,12 +2,11 @@
 <html> 
   <head> 
     <h1> Ruan van Schalkwyk </h1> 
-    <style type="text/css"> 
-      body {
-      background-color: #d8da3d
-      color: purple; 
-            }
-    </style> 
+   <style>
+body {background-color: powderblue;}
+h1   {color: blue;}
+p    {color: red;}
+</style>
   </head> 
 
   <body> 
