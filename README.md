@@ -2,7 +2,7 @@
   <head> 
     <h1> Ruan van Schalkwyk </h1> 
    <style>
-body {background-color: gray;}
+body {background-color: #DCDCDC;}
 
 </style>
   </head> 
