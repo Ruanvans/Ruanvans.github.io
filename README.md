@@ -1,6 +1,9 @@
 <html> 
   <head> 
     <h1> Ruan van Schalkwyk </h1> 
+    <style> 
+      body {background-color: gray;}
+    </style> 
   </head> 
 
   <body> 
