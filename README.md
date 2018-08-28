@@ -1,11 +1,9 @@
-<!DOCTYPE html>
 <html> 
   <head> 
     <h1> Ruan van Schalkwyk </h1> 
    <style>
-body {background-color: powderblue;}
-h1   {color: blue;}
-p    {color: red;}
+body {background-color: gray;}
+
 </style>
   </head> 
 
