@@ -18,13 +18,14 @@ body {background-color: #DCDCDC;}
   
   <p> One of the areas I was exposed to during my degree was mobile application development specifically android programing, I hope to in the near future gain some experience in IOS application development as well. One of the most exciting projects I have worked on to date was an app that is used for navigation around the university of surrey campus and surrounding area, I am currently working on bettering this app to allow more features that have real world value.   </p> 
   
-  <b> Academic Achievements </b> 
+  <b> Academic Achievements and Qualifications </b> 
   
   <p> Below is a list of my past Academic achievements, I will continue to add to this list over time as relevant.</p> 
   
   <ul style="list-style-type:disc"> 
-    <li> International Baccalaureate Diploma </li> 
-    <li> 2:1 For my first year of BSc Computer Science at the University of Surrey </li> 
+    <li> International Baccalaureate Diploma. </li> 
+    <li> 2:1 For my first year of BSc Computer Science at the University of Surrey. </li> 
+    <li> Member of the BCS (The Chartered Institute of IT).</li>
   </ul>
   
   <b> Future Academic Ambitions and Goals </b> 
