@@ -15,6 +15,12 @@ body {background-color: #DCDCDC;}
   <p> My interests within computer science have developed since undertaking my degree program, I am currently completing a short online course in machine learning from the university of Stanford and in the near future hope to complete a short course on the mathematics of machine learning which is offered by Imperial College London. As one can see from my choice in courses my main interest lies in the direction of machine learning and Artificial intelligence. However, during the first year of my degree I was exposed to the field of software engineering and since then I have had a keen interest in the development of software from scratch to a point where it is ready to be deployed.</p>
   
   <p> One of the areas I was exposed to during my degree was application development specifically android programing, I hope to in the near future gain some experience in IOS application development. One of the most exciting projects I have worked on to date was an app that is used for navigation around the university of surrey campus and surrounding area, I am currently working on bettering this app to allow more features that have real world value.   </p> 
+  
+  <b> Academic Achievements </b> 
+  <ul style="list-style-type:disc"> 
+    <li> International Baccalaureate Diploma </li> 
+    <li> 2:1 For my first year of BSc Computer Science at the University of Surrey </li> 
+  </ul>
  
  </body>
  
