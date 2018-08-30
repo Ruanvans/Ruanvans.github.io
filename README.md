@@ -29,7 +29,7 @@ body {background-color: #DCDCDC;}
   
   <b> Future Academic Ambitions and Goals </b> 
   
-  <ul> style="list-style-type:disc"> 
+  <ul style="list-style-type:disc"> 
   <li></li>
   <li></li>
   </ul>
