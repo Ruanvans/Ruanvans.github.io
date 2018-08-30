@@ -25,7 +25,7 @@ body {background-color: #DCDCDC;}
   <ul style="list-style-type:disc"> 
     <li> International Baccalaureate Diploma. </li> 
     <li> 2:1 For my first year of BSc Computer Science at the University of Surrey. </li> 
-    <li> Member of the BCS (The Chartered Institute of IT).</li>
+    <li> Member of the BCS (The Chartered Institute of IT). </li>
   </ul>
   
   <b> Future Academic Ambitions and Goals </b> 
