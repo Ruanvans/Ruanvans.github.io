@@ -31,11 +31,18 @@ body {background-color: #DCDCDC;}
   <b> Future Academic Ambitions and Goals </b> 
   
   <ul style="list-style-type:disc"> 
-  <li></li>
-  <li></li>
+    <li>Stanford online Machine Learning course (currently working on completing this before October 2018). </li>
+    <li>Imperial College London online Machine Learning Specialization. </li>
+    <li> Achieve a first in my second year of BSc Computer Science at the University of Surrey. </li>
   </ul>
   
+  <b> Skills </b> 
   
+  <ul style="list-style-type:disc">
+    <li> Java. </li>
+    <li> Android Programming. </li> 
+    <li> Software Engineering (achieved 92% overall in my software engineering module in 2018). </li> 
+  </ul>
  
  </body>
  
