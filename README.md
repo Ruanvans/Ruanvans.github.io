@@ -12,15 +12,29 @@ body {background-color: #DCDCDC;}
   
   <p> I completed my high school education at an American school in Dubai named the Universal American School in Dubai. There I completed the International Baccalaureate Diploma program and recieved my diploma in 2016. I then went to the University of Surrey to study a Bsc of Computer Science with a placement year, I am schedualed to graduate in 2021.</p>
   
-  <p> My interests within computer science have developed since undertaking my degree program, I am currently completing a short online course in machine learning from the university of Stanford and in the near future hope to complete a short course on the mathematics of machine learning which is offered by Imperial College London. As one can see from my choice in courses my main interest lies in the direction of machine learning and Artificial intelligence. However, during the first year of my degree I was exposed to the field of software engineering and since then I have had a keen interest in the development of software from scratch to a point where it is ready to be deployed.</p>
+  <p> My interests within computer science have developed since undertaking my degree program, I am currently completing a short online course in machine learning from the university of Stanford and in the near future hope to complete a short course on the mathematics of machine learning which is offered by Imperial College London. As one can see from my choice in courses my main interest lies in the direction of machine learning and Artificial intelligence. It is a firm believe of mine that this is one of the fastest growing areas of computer science and will one day form an intrinsic part of not only the development of computer science but also day to day life. </p> 
   
-  <p> One of the areas I was exposed to during my degree was application development specifically android programing, I hope to in the near future gain some experience in IOS application development. One of the most exciting projects I have worked on to date was an app that is used for navigation around the university of surrey campus and surrounding area, I am currently working on bettering this app to allow more features that have real world value.   </p> 
+  <p> During the first year of my degree I was exposed to the field of software engineering and since then I have had a keen interest in the development of software from scratch to a point where it is ready to be deployed. Unfortunately the module that covered the software engineering protion of the course only considered the waterfall method. However, through independant research and a guest talk hosted by the University I was exposed to the agile method of software development and immediately took a liking to it. I look forward to trying to put it into practice in the second semester of my second year when I will have a compulsory group project to develop a piece of software from scratch. Once that project is complete I look forward to adding it to my github along with the accompanying documentation for your viewing pleasure. </p>
+  
+  <p> One of the areas I was exposed to during my degree was mobile application development specifically android programing, I hope to in the near future gain some experience in IOS application development as well. One of the most exciting projects I have worked on to date was an app that is used for navigation around the university of surrey campus and surrounding area, I am currently working on bettering this app to allow more features that have real world value.   </p> 
   
   <b> Academic Achievements </b> 
+  
+  <p> Below is a list of my past Academic achievements, I will continue to add to this list over time as relevant.</p> 
+  
   <ul style="list-style-type:disc"> 
     <li> International Baccalaureate Diploma </li> 
     <li> 2:1 For my first year of BSc Computer Science at the University of Surrey </li> 
   </ul>
+  
+  <b> Future Academic Ambitions and Goals </b> 
+  
+  <ul> style="list-style-type:disc"> 
+  <li></li>
+  <li></li>
+  </ul>
+  
+  
  
  </body>
  
