@@ -10,7 +10,7 @@
   <body> 
     <div class="sidenav">
   <a href="#">About</a>
-  <a href="Ruanvans.github.io/CurrentProjects">Current Projects</a>
+  <a href="Ruanvans.github.io/RVS_githubpProjectPage.html">Current Projects</a>
   <a href="#">Clients</a>
   <a href="#">Contact</a>
 </div>
