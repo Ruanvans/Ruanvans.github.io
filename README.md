@@ -44,9 +44,6 @@ body {background-color: #DCDCDC;}
     <li> Software Engineering (achieved 92% overall in my software engineering module in 2018). </li> 
   </ul>
  
- </body>
- 
- <body>
   <h2> Current projects and Linkedin </h2>
   
   <p> Below is a list of all the projects I am currently working on as they are completed they will become available on my Github for viewing. </p> 
