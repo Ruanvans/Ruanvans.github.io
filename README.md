@@ -8,13 +8,12 @@
   </head> 
 
   <body> 
-    <div class="sidenav"> 
-      <h3> Navigation Menu </h3> 
-      <a href="#">Link 1</a>
-      <a href="#">Link 2</a>
-      <a href="#">Link 3</a>
-    </div>
-
+    <div class="sidenav">
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+</div>
   
   <div class="main">
   <h1> Ruan van Schalkwyk </h1> 
