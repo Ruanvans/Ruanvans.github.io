@@ -9,13 +9,14 @@
 
   <body> 
     <div class="w3-sidebar w3-bar-block" style="width:25%"> 
+      <h3> Navigation Menu </h3> 
       <a href="#" class="w3-bar-item w3-button">Link 1</a>
       <a href="#" class="w3-bar-item w3-button">Link 2</a>
       <a href="#" class="w3-bar-item w3-button">Link 3</a>
     </div>
 
   <div style=margin-left:25%">
-  
+  <div class="w3-container">
   <h1> Ruan van Schalkwyk </h1> 
   
   <h2> Education and Interests </h2> 
@@ -67,6 +68,7 @@
   
   <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="ruan-van-schalkwyk-800a65150"><a class="LI-simple-link" href='https://uk.linkedin.com/in/ruan-van-schalkwyk-800a65150?trk=profile-badge'>Ruan van Schalkwyk</a></div>
   </div>
+ </div> 
  </body>
  
 </html> 
