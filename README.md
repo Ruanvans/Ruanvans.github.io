@@ -8,15 +8,15 @@
   </head> 
 
   <body> 
-    <div class="w3-sidebar w3-bar-block" style="width:25%"> 
+    <div class="sidenav"> 
       <h3> Navigation Menu </h3> 
-      <a href="#" class="w3-bar-item w3-button">Link 1</a>
-      <a href="#" class="w3-bar-item w3-button">Link 2</a>
-      <a href="#" class="w3-bar-item w3-button">Link 3</a>
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
     </div>
 
-  <div style=margin-left:25%">
-  <div class="w3-container">
+  
+  <div class="main">
   <h1> Ruan van Schalkwyk </h1> 
   
   <h2> Education and Interests </h2> 
