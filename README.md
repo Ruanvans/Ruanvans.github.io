@@ -16,18 +16,9 @@
       <li><a href="name.html">Name</a></li>
       <li><a href="browse.html">Browse</a></li>
     </ul>
-    
-    
- <div class="w3-sidebar w3-bar-block w3-light-grey" style="width:25%">
-  <a href="#" class="w3-bar-item w3-button">Link 1</a>
-  <a href="#" class="w3-bar-item w3-button w3-hover-black">Link 2</a>
-  <a href="#" class="w3-bar-item w3-button w3-hover-green">Link 3</a>
-  <a href="#" class="w3-bar-item w3-button w3-hover-blue">Link 4</a>
-  <a href="#" class="w3-bar-item w3-button w3-hover-red">Link 5</a>
- </div>
-
-<div style="margin-left:25%">
-
+  </div>
+  </div> 
+  
   <h2> Education and Interests </h2> 
   
   <p> I completed my high school education at an American school in Dubai named the Universal American School in Dubai. There I completed the International Baccalaureate Diploma program and recieved my diploma in 2016. I then went to the University of Surrey to study a Bsc of Computer Science with a placement year, I am schedualed to graduate in 2021.</p>
