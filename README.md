@@ -9,11 +9,15 @@ body {background-color: #DCDCDC;}
 
   <body> 
   
-  <div class="w3-sidebar w3-bar-block">
-    <a href="#" class="w3-bar-item w3-button w3-hover-grey">Link 1</a>
-    <a href="#" class="w3-bar-item w3-button w3-hover-grey">Link 2</a>
-    <a href="#" class="w3-bar-item w3-button w3-hover-grey">Link 3</a>
-  </div>
+ <div class="w3-sidebar w3-bar-block w3-light-grey" style="width:25%">
+  <a href="#" class="w3-bar-item w3-button">Link 1</a>
+  <a href="#" class="w3-bar-item w3-button w3-hover-black">Link 2</a>
+  <a href="#" class="w3-bar-item w3-button w3-hover-green">Link 3</a>
+  <a href="#" class="w3-bar-item w3-button w3-hover-blue">Link 4</a>
+  <a href="#" class="w3-bar-item w3-button w3-hover-red">Link 5</a>
+</div>
+
+<div style="margin-left:25%">
 
   <h2> Education and Interests </h2> 
   
