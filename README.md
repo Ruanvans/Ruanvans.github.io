@@ -10,7 +10,14 @@
   <body> 
   
   <h1> Ruan van Schalkwyk </h1> 
-  
+  <div class="nav">
+  <div class="container">
+    <ul class="pull-left">
+      <li><a href="name.html">Name</a></li>
+      <li><a href="browse.html">Browse</a></li>
+    </ul>
+    
+    
  <div class="w3-sidebar w3-bar-block w3-light-grey" style="width:25%">
   <a href="#" class="w3-bar-item w3-button">Link 1</a>
   <a href="#" class="w3-bar-item w3-button w3-hover-black">Link 2</a>
