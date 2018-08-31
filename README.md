@@ -9,7 +9,6 @@
 
   <body> 
   
-  <h1> Ruan van Schalkwyk </h1> 
   <div class="nav">
   <div class="container">
     <ul class="pull-left">
@@ -18,6 +17,8 @@
     </ul>
   </div>
   </div> 
+  
+  <h1> Ruan van Schalkwyk </h1> 
   
   <h2> Education and Interests </h2> 
   
