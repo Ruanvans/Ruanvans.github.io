@@ -8,6 +8,13 @@ body {background-color: #DCDCDC;}
   </head> 
 
   <body> 
+  
+  <div class="w3-sidebar w3-bar-block">
+    <a href="#" class="w3-bar-item w3-button w3-hover-grey">Link 1</a>
+    <a href="#" class="w3-bar-item w3-button w3-hover-grey">Link 2</a>
+    <a href="#" class="w3-bar-item w3-button w3-hover-grey">Link 3</a>
+  </div>
+
   <h2> Education and Interests </h2> 
   
   <p> I completed my high school education at an American school in Dubai named the Universal American School in Dubai. There I completed the International Baccalaureate Diploma program and recieved my diploma in 2016. I then went to the University of Surrey to study a Bsc of Computer Science with a placement year, I am schedualed to graduate in 2021.</p>
