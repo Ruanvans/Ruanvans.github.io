@@ -68,7 +68,6 @@
   
   <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="ruan-van-schalkwyk-800a65150"><a class="LI-simple-link" href='https://uk.linkedin.com/in/ruan-van-schalkwyk-800a65150?trk=profile-badge'>Ruan van Schalkwyk</a></div>
   </div>
- </div> 
  </body>
  
 </html> 
