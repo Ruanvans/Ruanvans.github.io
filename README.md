@@ -8,16 +8,14 @@
   </head> 
 
   <body> 
-    <div class="sidenav">
       <ul style="list-style-type:disc">
         <li> <a href="#">About</a></li>
         <li> <a href="RVS_githubpProjectPage.html">Current Projects</a></li>
         <li><a href="#">Articles</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
-</div>
   
-  <div class="main">
+  
   <h1> Ruan van Schalkwyk </h1> 
   
   <h2> Education and Interests </h2> 
@@ -68,7 +66,7 @@
   <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
   
   <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="ruan-van-schalkwyk-800a65150"><a class="LI-simple-link" href='https://uk.linkedin.com/in/ruan-van-schalkwyk-800a65150?trk=profile-badge'>Ruan van Schalkwyk</a></div>
-  </div>
+ 
  </body>
  
 </html> 
