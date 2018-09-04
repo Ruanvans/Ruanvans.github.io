@@ -9,10 +9,12 @@
 
   <body> 
     <div class="sidenav">
-  <a href="#">About</a>
-  <a href="RVS_githubpProjectPage.html">Current Projects</a>
-  <a href="#">Clients</a>
-  <a href="#">Contact</a>
+      <ul style="list-style-type:disc">
+        <li> <a href="#">About</a></li>
+        <li> <a href="RVS_githubpProjectPage.html">Current Projects</a></li>
+        <li><a href="#">Articles</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
 </div>
   
   <div class="main">
