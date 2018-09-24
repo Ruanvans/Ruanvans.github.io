@@ -6,7 +6,15 @@
 
     </style>
   </head> 
-
+<div class="container">
+    <div id="sidebar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Explore</a></li>
+            <li><a href="#">Users</a></li>
+                <li><a href="#">Sign Out</a></li>
+        </ul>
+    </div>
   <body> 
       <ul style="list-style-type:disc">
         <li> <a href="#">About</a></li>
