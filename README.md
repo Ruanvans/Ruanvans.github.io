@@ -152,7 +152,6 @@ width: 100%;
     float: left;
 }
 .main-content #sidebar-toggle .bar{
-     display: block;
     width: 18px;
     margin-bottom: 3px;
     height: 2px;
