@@ -91,7 +91,6 @@ body, html {
 }
  
 #sidebar {
-    position: absolute;
     left: -240px;
     background: #DCDCDC ;
     width: 240px;
