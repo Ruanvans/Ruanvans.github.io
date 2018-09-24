@@ -28,7 +28,7 @@ body, html {
 #sidebar {
     position: absolute;
     left: -240px;
-    background: #DF314D;
+    background: #DCDCDC ;
     width: 240px;
     height: 100%;
     box-sizing: border-box;
@@ -105,6 +105,7 @@ width: 100%;
 
     </style>
   </head> 
+  
 <div class="container">
     <div id="sidebar">
         <ul>
