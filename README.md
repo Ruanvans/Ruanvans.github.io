@@ -91,6 +91,7 @@ body, html {
 }
  
 #sidebar {
+    position : relative; 
     left: -240px;
     background: #DCDCDC ;
     width: 240px;
@@ -109,7 +110,7 @@ body, html {
     padding: 15px 20px;
     font-size: 16px;
     font-weight: 100;
-    color: white;
+    color: black;
     text-decoration: none;
     display: block;
     border-bottom: 1px solid #C9223D;
