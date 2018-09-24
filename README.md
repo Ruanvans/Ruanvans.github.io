@@ -70,7 +70,6 @@
 body, html {
     height: 100%;
     margin: 0;
-    overflow:hidden;
     font-family: helvetica;
     font-weight: 100;
 }
@@ -91,7 +90,7 @@ body, html {
 }
  
 #sidebar {
-    position : relative; 
+    position : absolute; 
     left: -240px;
     background: #DCDCDC ;
     width: 240px;
