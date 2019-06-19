@@ -3,8 +3,9 @@
     <div id="sidebar">
         <ul>
             <li><a href="#">Home</a></li>
-            <li><a href="#">Explore</a></li>
-            <li><a href="#">Users</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Education</a></li>
+            <li><a href="#">Skills</a></li>
         </ul>
     </div>
   <body> 
@@ -38,12 +39,20 @@
     <li> Achieve a first in my second year of BSc Computer Science at the University of Surrey. </li>
   </ul>
   
-  <b> Skills </b> 
+ <h2> Skills </h2> 
   
   <ul style="list-style-type:disc">
     <li> Java. </li>
     <li> Android Programming. </li> 
     <li> Software Engineering (achieved 92% overall in my software engineering module in 2018). </li> 
+    <li> Python. </li> 
+    <li> C++. </li> 
+    <li> Artificial Intelligence.  
+        <ul> 
+            <li> Neural networks </li> 
+            <li> classifiers </li> 
+        </ul> 
+    </li>
   </ul>
  
   <h2> Current projects and Linkedin </h2>
