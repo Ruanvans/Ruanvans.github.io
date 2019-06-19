@@ -165,5 +165,4 @@ width: 100%;
 <style>
     body {background-color: #DCDCDC;}
 </style>
- 
-</html> 
+
