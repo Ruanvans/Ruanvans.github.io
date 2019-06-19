@@ -1,8 +1,4 @@
-<html> 
-  <head> 
-   
-  </head> 
-  
+<html>  
 <div class="container">
     <div id="sidebar">
         <ul>
