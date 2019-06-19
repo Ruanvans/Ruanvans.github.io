@@ -9,7 +9,6 @@
             <li><a href="#">Home</a></li>
             <li><a href="#">Explore</a></li>
             <li><a href="#">Users</a></li>
-                <li><a href="#">Sign Out</a></li>
         </ul>
     </div>
   <body> 
@@ -163,9 +162,8 @@ width: 100%;
 }
 </style>
     
-   <style>
+<style>
     body {background-color: #DCDCDC;}
-
-    </style>
+</style>
  
 </html> 
