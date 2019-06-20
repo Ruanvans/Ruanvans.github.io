@@ -41,12 +41,17 @@
   
  <h2> Skills </h2> 
   
+  <div style="float: left; width: 50%;"> 
   <ul style="list-style-type:disc">
     <li> Java. </li>
     <li> Android Programming. </li> 
     <li> Software Engineering (achieved 92% overall in my software engineering module in 2018). </li> 
     <li> Python. </li> 
     <li> C++. </li> 
+  </ul> 
+  </div> 
+  <div style="float: right; width: 50%;">
+  <ul style="list-style-type:disc">
     <li> Artificial Intelligence.  
         <ul> 
             <li> Neural networks </li> 
@@ -54,6 +59,9 @@
         </ul> 
     </li>
   </ul>
+  </div> 
+  
+  <h2> Tools </h2> 
  
   <h2> Current projects and Linkedin </h2>
   
