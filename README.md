@@ -46,8 +46,6 @@
   <div style="float: left; width: 50%;"> 
     <ul style="list-style-type:disc">
         <li> Java. </li>
-        <li> Android Programming. </li> 
-        <li> Software Engineering (achieved 92% overall in my software engineering module in 2018). </li> 
         <li> Python. </li> 
         <li> C++. </li> 
     </ul> 
@@ -55,21 +53,15 @@
   
   <div style="float: right; width: 50%;">
     <ul style="list-style-type:disc">
-        <li> Artificial Intelligence.  
-            <ul> 
-                <li> Neural networks </li> 
-                <li> classifiers </li> 
-            </ul> 
-        </li>
+        <li> Artificial Intelligence.</li>
         <li> Ruby </li> 
         <li> JavaScript </li> 
     </ul>
   </div> 
-  </div> 
-  
-  <div> 
+  </div>  
     
   <br> 
+  
   <h2> Tools </h2> 
   
   <div style="float: left; width: 50%;"> 
@@ -82,7 +74,7 @@
 
   </div> 
   
-  <div style="float: left; wifth: 50%;"> 
+  <div style="float: right; width: 50%;"> 
     <ul style="list-style-type:disc">
         <li> Jupyter Notebook </li> 
         <li> Keras </li> 
@@ -93,6 +85,7 @@
    <div> 
     
   <br> 
+  
   <h2> Current projects and Linkedin </h2>
   
   <p> Below is a list of all the projects I am currently working on as they are completed they will become available on my Github for viewing. </p> 
