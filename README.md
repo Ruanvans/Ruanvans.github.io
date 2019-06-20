@@ -58,7 +58,6 @@
         <li> JavaScript </li> 
     </ul>
   </div> 
-  </div>  
     
   <br> 
   
