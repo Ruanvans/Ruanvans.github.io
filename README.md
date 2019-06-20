@@ -59,8 +59,7 @@
         <li> MS Office </li> 
         <li> Eclipse </li> 
         <li> Atom </li> 
-    </ul> 
-
+    </ul>
   </div> 
   
   <div style="float: right; width: 50%;"> 
