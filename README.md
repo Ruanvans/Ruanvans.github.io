@@ -30,9 +30,7 @@
   </ul>
   
  <br>
- 
  <h2> Skills </h2> 
-  
   <div style="float: left; width: 50%;"> 
     <ul style="list-style-type:disc">
         <li> Java. </li>
@@ -47,7 +45,7 @@
         <li> Ruby </li> 
         <li> JavaScript </li> 
     </ul>
-  </div> 
+   
     
   <br> 
   
