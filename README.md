@@ -39,7 +39,8 @@
     <li> Achieve a first in my second year of BSc Computer Science at the University of Surrey. </li>
   </ul>
   
- <div style="float: left;"> 
+ <br>
+ 
  <h2> Skills </h2> 
   
   <div style="float: left; width: 50%;"> 
@@ -67,6 +68,8 @@
   </div> 
   
   <div> 
+    
+  <br> 
   <h2> Tools </h2> 
   
   <div style="float: left; width: 50%;"> 
@@ -89,7 +92,7 @@
    </div> 
    <div> 
     
- 
+  <br> 
   <h2> Current projects and Linkedin </h2>
   
   <p> Below is a list of all the projects I am currently working on as they are completed they will become available on my Github for viewing. </p> 
