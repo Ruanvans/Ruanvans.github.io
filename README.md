@@ -7,7 +7,7 @@
             <li><a href="#">Education</a></li>
             <li><a href="#">Skills</a></li>
         </ul>
-    </div>
+</div>
   <body> 
   <h1> Ruan van Schalkwyk </h1> 
   
@@ -42,26 +42,50 @@
  <h2> Skills </h2> 
   
   <div style="float: left; width: 50%;"> 
-  <ul style="list-style-type:disc">
-    <li> Java. </li>
-    <li> Android Programming. </li> 
-    <li> Software Engineering (achieved 92% overall in my software engineering module in 2018). </li> 
-    <li> Python. </li> 
-    <li> C++. </li> 
-  </ul> 
+    <ul style="list-style-type:disc">
+        <li> Java. </li>
+        <li> Android Programming. </li> 
+        <li> Software Engineering (achieved 92% overall in my software engineering module in 2018). </li> 
+        <li> Python. </li> 
+        <li> C++. </li> 
+    </ul> 
   </div> 
+  
   <div style="float: right; width: 50%;">
-  <ul style="list-style-type:disc">
-    <li> Artificial Intelligence.  
-        <ul> 
-            <li> Neural networks </li> 
-            <li> classifiers </li> 
-        </ul> 
-    </li>
-  </ul>
+    <ul style="list-style-type:disc">
+        <li> Artificial Intelligence.  
+            <ul> 
+                <li> Neural networks </li> 
+                <li> classifiers </li> 
+            </ul> 
+        </li>
+        <li> Ruby </li> 
+        <li> JavaScript </li> 
+    </ul>
   </div> 
   
   <h2> Tools </h2> 
+  
+  <div style="float: left; width: 50%;"> 
+    <ul style="list-style-type:disc">
+        <li> Notepad++ </li> 
+        <li> MS Office </li> 
+        <li> Eclipse </li> 
+        <li> Atom </li> 
+    </ul> 
+
+  </div> 
+  
+  <div style="float: left; wifth: 50%;"> 
+    <ul style="list-style-type:disc">
+        <li> Jupyter Notebook </li> 
+        <li> Keras </li> 
+        <li> TensorFlow </li> 
+        <li> Scikit-Learn </li> 
+    </ul> 
+   </div> 
+
+    
  
   <h2> Current projects and Linkedin </h2>
   
