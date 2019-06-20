@@ -31,22 +31,22 @@
   
  <br>
  <h2> Skills </h2> 
-  <div style="float: left; width: 50%;"> 
-    <ul style="list-style-type:disc">
-        <li> Java. </li>
-        <li> Python. </li> 
-        <li> C++. </li> 
-    </ul> 
-  </div> 
+ <div style="float: left; width: 50%;"> 
+   <ul style="list-style-type:disc">
+       <li> Java. </li>
+       <li> Python. </li> 
+       <li> C++. </li> 
+   </ul> 
+ </div> 
   
-  <div style="float: right; width: 50%;">
-    <ul style="list-style-type:disc">
+ <div style="float: right; width: 50%;">
+   <ul style="list-style-type:disc">
         <li> Artificial Intelligence.</li>
         <li> Ruby </li> 
         <li> JavaScript </li> 
-    </ul>
-   
-    
+   </ul>
+ </div>
+  
   <br> 
   
   <h2> Tools </h2> 
