@@ -38,7 +38,7 @@
     <li>Imperial College London online Machine Learning Specialization. </li>
     <li> Achieve a first in my second year of BSc Computer Science at the University of Surrey. </li>
   </ul>
-  
+ <div> 
  <h2> Skills </h2> 
   
   <div style="float: left; width: 50%;"> 
@@ -63,7 +63,9 @@
         <li> JavaScript </li> 
     </ul>
   </div> 
+  </div> 
   
+  <div> 
   <h2> Tools </h2> 
   
   <div style="float: left; width: 50%;"> 
@@ -84,7 +86,7 @@
         <li> Scikit-Learn </li> 
     </ul> 
    </div> 
-
+   <div> 
     
  
   <h2> Current projects and Linkedin </h2>
