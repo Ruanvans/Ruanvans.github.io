@@ -38,7 +38,8 @@
     <li>Imperial College London online Machine Learning Specialization. </li>
     <li> Achieve a first in my second year of BSc Computer Science at the University of Surrey. </li>
   </ul>
- <div> 
+  
+ <div style="float: left;"> 
  <h2> Skills </h2> 
   
   <div style="float: left; width: 50%;"> 
@@ -103,6 +104,7 @@
   <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="ruan-van-schalkwyk-800a65150"><a class="LI-simple-link" href='https://uk.linkedin.com/in/ruan-van-schalkwyk-800a65150?trk=profile-badge'>Ruan van Schalkwyk</a></div>
  
  </body>
+</html> 
  
    <style type="text/css">
 body, html {
