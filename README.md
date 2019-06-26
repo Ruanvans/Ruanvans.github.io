@@ -39,8 +39,8 @@
        <li> Python. </li> 
        <li> C++. </li> 
     </ul> 
-    </div> 
-  <div style="float: left; width: 25%"> 
+  </div> 
+  <div style="float: left; width: 25%;"> 
       <ul style="list-style: none"> 
         <li> <span class="fa fa-star checked"> </span> 
           <span class="fa fa-star checked"> </span> 
@@ -85,7 +85,7 @@
      <span class="fa fa-star"> </span> 
      <span class="fa fa-star"></span> </li> 
    </ul> 
-  </div> 
+ </div> 
   
   <br> 
   
