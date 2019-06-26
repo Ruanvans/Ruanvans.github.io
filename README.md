@@ -34,16 +34,34 @@
  <br>
  <h2> Skills </h2> 
  <div style="float: left; width: 50%;"> 
+  <div style="float: left; width: 50%">
    <ul style="list-style-type:disc">
-       <li> Java. <span class="fa fa-star checked"> </span> 
-           <span class="fa fa-star checked"> </span> 
-           <span class="fa fa-star checked"> </span> 
-           <span class="fa fa-star checked"> </span> 
-           <span class="fa fa-star"></span> </li>
+       <li> Java. </li>
        <li> Python. </li> 
        <li> C++. </li> 
    </ul> 
+  </div> 
+  <div style="float: right; width: 50%"> 
+    <ul> 
+      <li> <span class="fa fa-star checked"> </span> 
+          <span class="fa fa-star checked"> </span> 
+          <span class="fa fa-star checked"> </span> 
+          <span class="fa fa-star checked"> </span> 
+          <span class="fa fa-star"></span></li> 
+      <li> <span class="fa fa-star checked"> </span> 
+          <span class="fa fa-star checked"> </span> 
+          <span class="fa fa-star checked"> </span> 
+          <span class="fa fa-star checked"> </span> 
+          <span class="fa fa-star"></span><li>
+      <li><span class="fa fa-star checked"> </span> 
+          <span class="fa fa-star checked"> </span> 
+          <span class="fa fa-star checked"> </span> 
+          <span class="fa fa-star"> </span> 
+          <span class="fa fa-star"></span> </li> 
+    </ul> 
+  </div> 
  </div> 
+
   
  <div style="float: right; width: 50%;">
    <ul style="list-style-type:disc">
