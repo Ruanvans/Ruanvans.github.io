@@ -67,7 +67,7 @@
         <li> JavaScript </li> 
    </ul>
  </div>
- <div style="float: right; width: 25%;"
+ <div style="float: right; width: 25%;">
   <ul style="list-style: none"> 
    <li> <span class="fa fa-star checked"> </span> 
      <span class="fa fa-star checked"> </span> 
