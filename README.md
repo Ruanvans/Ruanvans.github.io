@@ -41,7 +41,7 @@
     </ul> 
   </div> 
   <div style="float: left; width: 25%;"> 
-      <ul style="list-style: none"> 
+      <ul style="list-style-type: none"> 
         <li> <span class="fa fa-star checked"> </span> 
           <span class="fa fa-star checked"> </span> 
           <span class="fa fa-star checked"> </span> 
@@ -56,7 +56,7 @@
           <span class="fa fa-star checked"> </span> 
           <span class="fa fa-star checked"> </span> 
           <span class="fa fa-star"> </span> 
-          <span class="fa fa-star"></span> </li> 
+          <span class="fa fa-star"> </span> </li> 
       </ul> 
   </div>  
   
@@ -68,7 +68,7 @@
    </ul>
  </div>
  <div style="float: right; width: 25%;">
-  <ul style="list-style: none"> 
+  <ul style="list-style-type: none"> 
    <li> <span class="fa fa-star checked"> </span> 
      <span class="fa fa-star checked"> </span> 
      <span class="fa fa-star checked"> </span> 
