@@ -8,6 +8,8 @@
             <li><a href="#">Skills</a></li>
         </ul>
 </div>
+    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <body> 
   <h1> Ruan van Schalkwyk </h1> 
   
@@ -33,7 +35,11 @@
  <h2> Skills </h2> 
  <div style="float: left; width: 50%;"> 
    <ul style="list-style-type:disc">
-       <li> Java. </li>
+       <li> Java. <span class="fa fa-star checked"> </span> 
+           <span class="fa fa-star checked"> </span> 
+           <span class="fa fa-star checked"> </span> 
+           <span class="fa fa-star checked"> </span> 
+           <span class="fa fa-star"></span> </li>
        <li> Python. </li> 
        <li> C++. </li> 
    </ul> 
