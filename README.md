@@ -94,6 +94,9 @@
 </html> 
  
    <style type="text/css">
+.checked { 
+    color: red; 
+} 
 body, html {
     height: 100%;
     margin: 0;
