@@ -95,8 +95,9 @@
  
    <style type="text/css">
 .checked { 
-    color: red; 
+    color: orange; 
 } 
+    
 body, html {
     height: 100%;
     margin: 0;
