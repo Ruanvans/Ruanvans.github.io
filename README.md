@@ -1,4 +1,4 @@
-<html>  
+<!HTML>  
 <div class="container">
     <div id="sidebar">
         <ul>
@@ -164,14 +164,51 @@
     
   <br> 
   
-  <h2> Current projects and Linkedin </h2>
+ <h2> Languages </h2>
+ <div style="Float: left; width: 50%;">
+  <ul style="list-style-type: disc"> 
+    <li> English </li> 
+    <li> Afrikaans </li> 
+  </ul> 
+ </div>
+
+ <div style="float: right; width: 50%;"> 
+  <ul style="list-style-type: none"> 
+    <li> <span class="fa fa-star checked"> </span> 
+    <span class="fa fa-star checked"> </span> 
+    <span class="fa fa-star checked"> </span> 
+    <span class="fa fa-star checked"> </span> 
+    <span class="fa fa-star checked"></span> </li>
+    <li> <span class="fa fa-star checked"> </span> 
+    <span class="fa fa-star checked"> </span> 
+    <span class="fa fa-star checked"> </span> 
+    <span class="fa fa-star checked"> </span> 
+    <span class="fa fa-star checked"></span> </li>
+  </ul> 
+ </div>
+
+ <br> 
+
+ <h2> Online courses </h2> 
+  <div style="float: left; width: 50%;">
+    <ul style="list-style-type: disc"> 
+      <li>  Mathematics for Machine learning Specialization from Imperial College London </li> 
+        <ul> 
+          <li> Mathematics for Machine Learning: Linear Algebra </li> 
+          <li> Mathematics for Machine Learning: Multivariate Calculus </li> 
+          <li> Mathematics for Machine learning: Principle Component Analysis </li> 
+        </ul> 
+      <li> Machine learning from Stanford University </li> 
+    </ul> 
+  </div>  
   
-  <p> Below is a list of all the projects I am currently working on as they are completed they will become available on my Github for viewing. </p> 
-  
-  <ul style="list-style-type:disc">
-    <li>Campus Tour guide (android application and possibly IOS in futre)</li>
-    <li> TBC </li>
-  </ul>
+<br> 
+
+<h2> Personal Projects </h2>
+
+<br> 
+
+<h2> Contact details </h2> 
   
   <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
   
