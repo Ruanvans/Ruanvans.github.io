@@ -92,26 +92,75 @@
  </div> 
   
   <br> 
-  
-  <h2> Tools </h2> 
-  
-  <div style="float: left; width: 50%;"> 
-    <ul style="list-style-type:disc">
-        <li> Notepad++ </li> 
-        <li> MS Office </li> 
-        <li> Eclipse </li> 
-        <li> Atom </li> 
-    </ul>
-  </div> 
-  
-  <div style="float: right; width: 50%;"> 
-    <ul style="list-style-type:disc">
-        <li> Jupyter Notebook </li> 
-        <li> Keras </li> 
-        <li> TensorFlow </li> 
-        <li> Scikit-Learn </li> 
-    </ul> 
-   </div> 
+<h2> Tools </h2> 
+
+<div style="float: left; width: 25%;"> 
+  <ul style="list-style-type:disc">
+      <li> Notepad++ </li> 
+      <li> MS Office </li> 
+      <li> Eclipse </li> 
+      <li> Atom </li> 
+  </ul>
+</div> 
+
+<div style="float: left; width: 25%;">
+  <ul style="list-style-type:none">
+    <li> <span class="fa fa-star checked"> </span> 
+    <span class="fa fa-star checked"> </span> 
+    <span class="fa fa-star checked"> </span> 
+    <span class="fa fa-star checked"> </span> 
+    <span class="fa fa-star checked"></span></li> 
+    <li> <span class="fa fa-star checked"> </span> 
+    <span class="fa fa-star checked"> </span> 
+    <span class="fa fa-star checked"> </span> 
+    <span class="fa fa-star checked"> </span> 
+    <span class="fa fa-star checked"></span></li>
+    <li><span class="fa fa-star checked"> </span> 
+    <span class="fa fa-star checked"> </span> 
+    <span class="fa fa-star checked"> </span> 
+    <span class="fa fa-star checked"> </span> 
+    <span class="fa fa-star"></span> </li> 
+    <li><span class="fa fa-star checked"> </span> 
+    <span class="fa fa-star checked"> </span> 
+    <span class="fa fa-star checked"> </span> 
+    <span class="fa fa-star checked"> </span> 
+    <span class="fa fa-star"></span> </li> 
+  </ul> 
+</div> 
+
+<div style="float: left; width: 25%;"> 
+  <ul style="list-style-type:disc">
+      <li> Jupyter Notebook </li> 
+      <li> Keras </li> 
+      <li> TensorFlow </li> 
+      <li> Scikit-Learn </li> 
+  </ul> 
+ </div> 
+
+ <div style="float: right; width: 25%"> 
+  <ul style="list-style-type:none">
+    <li> <span class="fa fa-star checked"> </span> 
+    <span class="fa fa-star checked"> </span> 
+    <span class="fa fa-star checked"> </span> 
+    <span class="fa fa-star checked"> </span> 
+    <span class="fa fa-star"></span></li> 
+    <li> <span class="fa fa-star checked"> </span> 
+    <span class="fa fa-star checked"> </span> 
+    <span class="fa fa-star checked"> </span> 
+    <span class="fa fa-star"> </span> 
+    <span class="fa fa-star"></span></li>
+    <li><span class="fa fa-star checked"> </span> 
+    <span class="fa fa-star checked"> </span> 
+    <span class="fa fa-star checked"> </span> 
+    <span class="fa fa-star"> </span> 
+    <span class="fa fa-star"></span> </li> 
+    <li><span class="fa fa-star checked"> </span> 
+    <span class="fa fa-star checked"> </span> 
+    <span class="fa fa-star checked"> </span> 
+    <span class="fa fa-star"> </span> 
+    <span class="fa fa-star"></span> </li> 
+  </ul> 
+ </div> 
     
   <br> 
   
