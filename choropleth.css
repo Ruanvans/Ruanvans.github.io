@@ -1,0 +1,19 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    background-color: #fff;
+    width: 960px;
+    height: 800px;
+    margin-top: 10px;
+}
+
+.x0 { fill:#7CFC00; }
+.x1 { fill:#FFFF00; }
+.x2 { fill:#FF8C00; }
+.x3 { fill:#FF0000; }
+.x4 { fill:#8B0000; }
+
+#legend{
+    text-align: center;
+}
