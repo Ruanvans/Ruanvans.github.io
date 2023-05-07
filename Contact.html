@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>RC | Contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <style>
+
+    .pin2 {
+      position: absolute;
+      color: black;
+      top: 40%;
+      left: 50%;
+      margin-left: 115px;
+      border-radius: 50%;
+      border: 8px solid #fff;
+      width: 8px;
+      height: 8px;
+    }    
+
+    header {
+      height: 120px;
+    }
+
+    u {
+      text-decoration: underline #FF0000 3px; /* red color and 4px thickness */
+      text-decoration-skip-ink: none; /* disable skipping ink */
+      text-underline-offset: 4px; /* set the offset to 4px */
+    }
+
+    p.custom {
+    line-height: 175%; /* set the line-height to 0.5 */
+        }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #ffffff;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 18px;
+    }
+
+    li a:hover:not(.active) {
+      border-bottom: 3px solid red;
+      color: #C91D22;
+    }
+
+    .active {
+      border-bottom: 3px solid red;
+    }
+
+    .center {
+      text-align: center;
+    }
+
+    html, body {
+      font-family: sans-serif;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      background-color: #F0F0F0;
+    }
+
+    .topbar img {
+      height: 100px;
+      width: 175px;
+      padding-left: 260px;
+    }
+
+    .topbar ul {
+      display: flex;
+      justify-content: left;
+      padding-top: 55px;
+      padding-left: 125px;
+    }
+
+    .topbar li {
+      margin: 0 10px;
+      displau: inline-block;
+    }
+
+
+    .topbar li a {
+      color: black;
+    }
+
+    .topbar {
+      display: flex;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      justify-content: center;
+      align-items: center;
+      background-color: #ffffff;
+      padding: 10px;
+      min-width: 1000px;
+      z-index: 999;
+    }
+
+    .logo {
+      float: left;
+      padding-right: 300px;
+
+    }
+
+    .navigation {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      min-width: 1000px;
+      padding-right: 150px;
+    }
+
+    
+    .dropdown-parent {
+      position: relative;
+    }
+
+    .dropdown-arrow {
+      margin-left: 5px;
+    }
+
+    .dropdown-arrow:before {
+      content: '';
+      position: absolute;
+      border-style: solid;
+      border-width: 0.2em 0.2em 0 0;
+      border-color: #555;
+      top: 0.4em;
+      left: 0.3em;
+      transform: rotate(-45deg);
+    }
+
+    /* Style the dropdown button */
+    .dropbtn {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 18px;
+      background-color: inherit;
+      border: none;
+      cursor: pointer;
+
+    }
+
+    /* Style the dropdown content (hidden by default) */
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+      font-size: 16px;
+    }
+
+    /* Style the links inside the dropdown */
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+      font-size: 16px;
+    }
+
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {
+      background-color: #f1f1f1;
+    }
+
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    #page-container {
+      position: absolute;
+      width: 100%;
+      left:0;
+      right: 0;
+      min-height: 100vh;
+    }
+
+    #content-wrap {
+      padding-left: 150px;
+      padding-right: 150px;
+      padding-bottom: 100px;
+      
+    }
+
+    .text-container {
+      max-width: 1200px; /* Set a maximum width for the container */
+      padding: 20px; /* Add some padding to create whitespace around the text */
+      line-height: 1.5; /* Increase the line spacing for easier readability */
+      font-size: 16px; /* Set a font size that is legible and easy to read */
+      text-align: justify;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    input[type=text], textarea {
+      width: 400px; /* set a specific width for all textboxes */
+      padding: 12px 20px; /* add padding to the textboxes */
+      margin: 8px 0; /* add margin between the textboxes */
+      box-sizing: border-box; /* include padding and border in the textbox's total width */
+    }
+
+    textarea {
+      height: 150px; /* set a specific height for the message box */
+    }
+
+    input[type=email] {
+      width: 400px; /* set the same width as the other textboxes */
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+    }
+
+    .mdc-c-button--primary {
+        background-color: #FF0000;
+        color: white;
+        min-height: 4rem;
+        min-width: 200px;
+        transition: all .12s linear;
+        border: none;
+    }
+
+    .dropdown-parent {
+      position: relative;
+    }
+
+    .dropdown-arrow {
+      margin-left: 5px;
+    }
+
+    .dropdown-arrow:before {
+      content: '';
+      position: absolute;
+      border-style: solid;
+      border-width: 0.2em 0.2em 0 0;
+      border-color: #555;
+      top: 0.4em;
+      left: 0.3em;
+      transform: rotate(-45deg);
+    }
+
+    /* Style the dropdown button */
+    .dropbtn {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 18px;
+      background-color: inherit;
+      border: none;
+      cursor: pointer;
+    }
+
+    /* Style the dropdown content (hidden by default) */
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    /* Style the links inside the dropdown */
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+      font-size: 16px;
+    }
+
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {
+      background-color: #f1f1f1;
+    }
+
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .hamburger {
+      display: none;
+      position: absolute;
+      float: left;
+      border: 0;
+      background-color: transparent;
+      z-index: 1000;
+      cursor: pointer;
+      color: solid red;
+      font-size: 20px;
+    }
+
+    .text-container {
+        max-width: 1350px; /* Set a maximum width for the container */
+        padding: 20px; /* Add some padding to create whitespace around the text */
+        line-height: 1.5; /* Increase the line spacing for easier readability */
+        font-size: 16px; /* Set a font size that is legible and easy to read */
+        text-align: justify;
+    }
+
+    form {
+      margin-bottom: 100px;
+
+    }
+
+    #map, #form {
+    width: 50%;
+    float: left;
+    }
+
+    footer {
+        position: absolute;
+        display: inline;
+        margin-left: 0;
+        width: 100%;
+        background-color: #ffffff;
+        color: black;
+        text-align: center;
+        height: 2rem;
+        align-items: center;
+        padding-bottom: 10px;
+      }
+
+      .form-map-wrapper {
+        overflow: hidden;
+      }
+    @media screen and (max-width: 1200px) {
+
+      .text-container{
+        text-align: center;
+      }
+
+      .container{
+        : ;
+      }
+      .navigation {
+        display: none;
+        width: 100%;
+      }
+
+      .navigation.show {
+        display: flex;
+      }
+
+      .logo {
+        float: left;
+        position: static;
+      }
+      
+      .hamburger {
+        display:block;
+
+      }
+
+      .hamburger:focus-visible{
+        outline: none;
+
+      }
+      .hamburger span {
+        display: block;
+        backgroundcolor: solid red;
+        width: 25px;
+        height: 3px;
+        margin-bottom: 5px;
+        background: #000000;
+        border-radius: 3px;
+        transform-origin: 4px 0px;
+        transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                    opacity 0.55s ease;
+      }
+
+      .box-push {
+        transform: translateY(0);
+      }
+
+      .text-container {
+        max-width: 100%; /* Set the maximum width to 100% for better adaptability on smaller screens */
+        padding: 10px; /* Reduce the padding to create more whitespace on smaller screens */
+      }
+    
+    }
+
+    </style>
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <header>
+        <div class="topbar">
+          <div class="logo">
+            <a href="landing_page.html">
+              <img src="logo_transparent_background.png" alt="Red Cipher Logo">
+            </a>
+          </div>
+          <div class="navigation">
+            <nav>
+              <ul>
+                <li><a href="landing_page.html"><b>Home</b></a></li>
+                <li><a href="Principles.html"><b>Our Guiding Principles</b></a></li>
+                <li class="dropdown">
+                <a href="Services.html" class="dropbtn"><b>Our Services &#9662;</b></a>
+                <div class="dropdown-content">
+                  <a href="Digital_currency_risk_advisory.html"><b>Digital Currency Risk Advisory</b></a>
+                  <a href="Financial_crime_compliance_risk_mitigation.html"><b>Financial Crime Compliance & Risk Mitigation</b></a>
+                  <a href="Cyber_resilience_pen_testing.html"><b>Cyber Resilience and Penetration Testing</b></a>
+                  <a href="Forensic_services.html"><b>Forensic Investigation Services</b></a>
+                  <a href="Training_solutions.html"><b>Training Solutions</b></a>
+                </div>
+                </li>
+                <li><a href="Insights.html"><b>Our Insights</b></a></li>
+                <li><a class="active" href="Contact.html"><b>Contact Us</b></a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+    </header>
+      <div id="page-container">
+        <div id="content-wrap">
+          <div class="text-container">
+                <h2>Contact Us</h2>
+          <div class="form-map-wrapper">
+          <div id="form">
+            <form method="post" action="https://www.example.com/send-email">
+              <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+              <div class="form-group"> 
+                  <label for="subject">Subject</label>
+                  <input type="text" id="subject" name="subject" required>
+              </div>
+              <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+              </div>
+              <div class="form-group">
+                <label for="security"></label>
+                <div class="g-recaptcha" data-sitekey="your_site_key"></div>
+              </div>
+              <div class="form-group">
+                <button aria-label="Submit" type="submit" id="" class="mdc-c-button mdc-c-button--primary mdc-c-button--size-large">Submit</button>
+              </div>
+            </form>
+          </div>
+          <div id="map">
+            <div>
+              <p class="custom"> <b><u style="margin-bottom: 10px;"> Contact Number:</u> <br><i class="fa fa-mobile-phone" style="font-size:35px;"></i> &nbsp; &nbsp;+27 79 273 0252 <br><br> <u style="margin-bottom: 10px;">E-mail:</u> <br> <i class="fa fa-envelope" style="font-size:25px"></i> &nbsp; &nbsp;info@red-cipher.io <br><br> <u style="margin-bottom: 10px;">Office Address:</u> <br><i class='fa fa-map-marker' style='font-size:36px'></i> &nbsp; &nbsp;Lynnwood Bridge, 5th Floor, Bloukrans Building, Lynnwood Rd, Pretoria, 0081 <br><br> </b></p>
+            </div>
+            <div>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3593.1760732560383!2d28.278752599999997!3d-25.7647472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e9561e5671952c1%3A0x7e4188e2636874e2!2sRegus%20-%20Pretoria%2C%20Lynnwood%20Bridge!5e0!3m2!1sen!2sza!4v1682624430737!5m2!1sen!2sza" width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+        </div>
+        </div>
+        <div id="footer">
+            <footer id="footer"><p>&copy; 2022 Red Cipher (Pty) Ltd. All rights reserved.</p></footer>
+        </div>
+      </div>
+  </body>
+</html>

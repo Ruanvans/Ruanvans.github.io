@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>RC | Cyber Resilience and Penetration Testing</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    header {
+      height: 120px;
+    }
+
+    u {
+      text-decoration: underline #FF0000 3px; /* red color and 4px thickness */
+      text-decoration-skip-ink: none; /* disable skipping ink */
+      text-underline-offset: 4px; /* set the offset to 4px */
+    }
+
+    p.custom {
+    line-height: 175%; /* set the line-height to 0.5 */
+        }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #ffffff;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 18px;
+    }
+
+    .topbar li a:hover:not(.active) {
+      border-bottom: 3px solid red;
+      color: #C91D22;
+    }
+
+    .active {
+      border-bottom: 3px solid red;
+    }
+
+    .center {
+      text-align: center;
+    }
+
+    html, body {
+      font-family: sans-serif;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      background-color: #F0F0F0;
+    }
+
+    .topbar img {
+      height: 100px;
+      width: 175px;
+      padding-left: 260px;
+    }
+
+    .topbar ul {
+      display: flex;
+      justify-content: left;
+      padding-top: 55px;
+      padding-left: 125px;
+    }
+
+    .topbar li {
+      margin: 0 10px;
+      displau: inline-block;
+    }
+
+
+    .topbar li a {
+      color: black;
+    }
+
+    .topbar {
+      display: flex;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      justify-content: center;
+      align-items: center;
+      background-color: #ffffff;
+      padding: 10px;
+      min-width: 1000px;
+      z-index: 999;
+    }
+
+    .logo {
+      float: left;
+      padding-right: 300px;
+
+    }
+
+    .navigation {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      min-width: 1000px;
+      padding-right: 150px;
+    }
+
+    
+    .dropdown-parent {
+      position: relative;
+    }
+
+    .dropdown-arrow {
+      margin-left: 5px;
+    }
+
+    .dropdown-arrow:before {
+      content: '';
+      position: absolute;
+      border-style: solid;
+      border-width: 0.2em 0.2em 0 0;
+      border-color: #555;
+      top: 0.4em;
+      left: 0.3em;
+      transform: rotate(-45deg);
+    }
+
+    /* Style the dropdown button */
+    .dropbtn {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 18px;
+      background-color: inherit;
+      border: none;
+      cursor: pointer;
+
+    }
+
+    /* Style the dropdown content (hidden by default) */
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+      font-size: 16px;
+    }
+
+    /* Style the links inside the dropdown */
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+      font-size: 16px;
+    }
+
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {
+      background-color: #f1f1f1;
+    }
+
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    #page-container {
+      position: absolute;
+      width: 100%;
+      left:0;
+      right: 0;
+      min-height: 100vh;
+    }
+
+    #content-wrap {
+      padding-left: 150px;
+      padding-right: 150px;
+      padding-bottom: 100px;
+      
+    }
+
+    .text-container {
+      max-width: 1350px; /* Set a maximum width for the container */
+      padding: 20px; /* Add some padding to create whitespace around the text */
+      line-height: 1.5; /* Increase the line spacing for easier readability */
+      font-size: 16px; /* Set a font size that is legible and easy to read */
+      text-align: justify;
+    }
+
+     .banner {
+      background-color: #ffffff;
+      color: black;
+      display: flex;
+      justify-content: space-between;
+      align-items: left;
+      padding: 80px;
+      flex-wrap: wrap;
+      align-items: left;
+    }
+
+    .banner .column {
+      display: flex;
+      flex-direction: column;
+      justify-content: left;
+      align-items: left;
+    }
+
+    .banner img {
+      width: 100%;
+      max-width: 125px;
+      display: block;
+      margin: 0;
+      padding: 0;
+    }
+
+    .banner .logo img {
+      width: 100%;
+      max-width: 175px;
+      display: block;
+      margin: 0;
+      padding: 0;
+    }
+
+    .banner h4 {
+      font-size: 1.2em;
+      margin-bottom: 10px;
+    }
+
+    .banner ul {
+      align-items: left;
+      text-align: left;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      background-color: transparent;
+      display: flex;
+      flex-direction: column;
+      color: black;
+      
+    }
+
+    .banner ul li {
+      margin-bottom: 5px;
+      color: black;
+      align-items: left;
+      text-align: left;
+    }
+
+    .banner a {
+      color: black;
+      padding-left: 0;
+      align-items: left;
+      text-align: left;
+    }
+
+    .banner li a:hover {
+      color: #C91D22;
+    }
+    
+    footer {
+        position: absolute;
+        display: inline;
+        margin-left: 0;
+        width: 100%;
+        background-color: #F0F0F0;
+        color: black;
+        text-align: center;
+        height: 2rem;
+        align-items: center;
+        padding-bottom: 10px;
+        clear:both;
+    }
+
+    .hamburger {
+        display: none;
+        position: absolute;
+        float: left;
+        border: 0;
+        background-color: transparent;
+        z-index: 1000;
+        cursor: pointer;
+        color: solid red;
+        font-size: 20px;
+      }
+
+    @media screen and (max-width: 768px) {
+      .navigation {
+        display: none;
+        width: 100%;
+      }
+
+      .navigation.show {
+        display: flex;
+      }
+
+      .logo {
+        float: left;
+        position: static;
+      }
+      
+      .hamburger {
+        display:block;
+
+      }
+
+      .hamburger:focus-visible{
+        outline: none;
+
+      }
+      .hamburger span {
+        display: block;
+        backgroundcolor: solid red;
+        width: 25px;
+        height: 3px;
+        margin-bottom: 5px;
+        background: #000000;
+        border-radius: 3px;
+        transform-origin: 4px 0px;
+        transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                    opacity 0.55s ease;
+      }
+    
+    }
+    </style>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <header>
+      <div class="topbar">
+          <div class="logo">
+            <a href="landing_page.html">
+              <img src="logo_transparent_background.png" alt="Red Cipher Logo">
+            </a>
+          </div>
+          <nav>
+            <button class="hamburger" id="hamburger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          <div class="navigation">
+            <ul>
+              <li><a href="landing_page.html"><b>Home</b></a></li>
+              <li><a href="Principles.html"><b>Our Guiding Principles</b></a></li>
+              <li class="dropdown">
+                <a class="active" href="Services.html" class="dropbtn"><b>Our Services &#9662;</b></a>
+                <div class="dropdown-content">
+                  <a href="Digital_currency_risk_advisory.html"><b>Digital Currency Risk Advisory</b></a>
+                  <a href="Financial_crime_compliance_risk_mitigation.html"><b>Financial Crime Compliance & Risk Mitigation</b></a>
+                  <a href="Cyber_resilience_pen_testing.html"><b>Cyber Resilience and Penetration Testing</b></a>
+                  <a href="Forensic_services.html"><b>Forensic Investigation Services</b></a>
+                  <a href="Training_solutions.html"><b>Training Solutions</b></a>
+                </div>
+              </li>
+              <li><a href="Insights.html"><b>Our Insights</b></a></li>
+              <li><a href="Contact.html"><b>Contact Us</b></a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+      <div id="page-container">
+        <img src="cyber.jpeg" alt="Fincrime banner" height="500" width="1680">
+        <div id="content-wrap">
+          <div class="text-container">
+          <h2>Cyber Resilience and Penetration Testing</h2>
+            <p style="font-size: 2vw;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget finibus sapien, id pharetra urna. Morbi viverra lacus est, molestie consectetur metus hendrerit ut. Aenean tristique lobortis augue, luctus pellentesque sem tincidunt venenatis. Sed id odio vel mi auctor varius. Pellentesque vel nisi aliquet, convallis magna sit amet, cursus ligula. Suspendisse convallis, libero sed viverra tempor, nisi sem condimentum lectus, eu maximus enim quam vel justo. Aliquam blandit lobortis nisl. Sed finibus, nulla eget imperdiet elementum, augue urna posuere nisl, id aliquet lorem urna eget nisl. Proin et odio quis ipsum sodales dictum. Sed ex quam, mollis a mauris in, mollis molestie sapien. Pellentesque venenatis velit ut eleifend lacinia. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Interdum et malesuada fames ac ante ipsum primis in faucibus.
+
+
+
+            <p>Sed sed pellentesque velit, ut malesuada diam. Morbi vestibulum lacinia lectus at convallis. Quisque at odio nec lacus fringilla faucibus. Integer tincidunt ultricies sapien. Morbi sapien turpis, maximus in nunc sed, efficitur tempus risus. Cras viverra convallis lacus ac porta. Curabitur vitae tortor eget dolor convallis aliquet vitae in odio. Quisque nisi ligula, egestas quis neque id, tristique lacinia neque. In turpis magna, efficitur in tincidunt non, mollis id ligula. Integer id est nec nisl blandit gravida. Nulla facilisi. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+
+            <p>Ut nec consequat arcu. Curabitur massa mauris, congue at quam quis, accumsan malesuada eros. Proin id dui a ipsum maximus aliquam eget nec velit. Vestibulum iaculis dapibus enim quis cursus. Integer ullamcorper nulla sit amet feugiat ullamcorper. Mauris sapien tellus, posuere eget mauris ac, dignissim scelerisque lacus. Quisque tempus, nunc sit amet suscipit facilisis, ante sapien sollicitudin lectus, nec mattis massa quam vitae nisi.</p>
+
+            <p>Nulla semper nulla sed tempor mattis. Nullam suscipit dui ac dignissim malesuada. Ut porta, ex vel aliquam mollis, libero lectus tincidunt dolor, eget commodo sapien leo at libero. Morbi urna leo, feugiat quis pharetra nec, faucibus ut orci. Proin gravida non lorem id consequat. Ut purus est, pretium vitae libero in, porta blandit arcu. Donec rutrum tristique velit in bibendum. Vivamus eget luctus quam.</p>
+
+            <p>Nulla facilisi. Pellentesque non feugiat tortor, ac pellentesque lacus. Proin sagittis ut risus eu hendrerit. Integer volutpat imperdiet fringilla. Pellentesque ac massa felis. Nullam at lobortis est. Duis id bibendum sapien. Quisque ultricies metus a neque volutpat pulvinar. Proin pretium aliquam nulla non pulvinar. Pellentesque at laoreet felis. Phasellus quis fringilla sapien, eget malesuada nunc. Suspendisse non nisi ac odio dignissim euismod at non purus.</p>
+
+            <p>Proin tempus augue ac cursus tincidunt. Donec urna purus, consectetur non suscipit a, laoreet at ligula. Quisque finibus vitae arcu non maximus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras ut vehicula augue, at maximus dui. Proin ultrices consequat iaculis. Donec ac tempus velit, ac laoreet nisi.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget finibus sapien, id pharetra urna. Morbi viverra lacus est, molestie consectetur metus hendrerit ut. Aenean tristique lobortis augue, luctus pellentesque sem tincidunt venenatis. Sed id odio vel mi auctor varius. Pellentesque vel nisi aliquet, convallis magna sit amet, cursus ligula. Suspendisse convallis, libero sed viverra tempor, nisi sem condimentum lectus, eu maximus enim quam vel justo. Aliquam blandit lobortis nisl. Sed finibus, nulla eget imperdiet elementum, augue urna posuere nisl, id aliquet lorem urna eget nisl. Proin et odio quis ipsum sodales dictum. Sed ex quam, mollis a mauris in, mollis molestie sapien. Pellentesque venenatis velit ut eleifend lacinia. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+
+            <p>Phasellus in metus dignissim, molestie sem vel, tempor eros. Pellentesque vel bibendum quam. Nam odio ante, vulputate vel mi a, gravida feugiat nunc. Ut sollicitudin metus non dolor ultrices, ut bibendum eros pulvinar. Suspendisse potenti. Sed sed bibendum felis. Vivamus eget ullamcorper ante. Ut convallis nunc quis mi varius, eget ultricies nulla tincidunt. Ut nisi orci, ultricies vel aliquet sed, congue eu mi. Fusce vitae eros leo. Etiam sed mattis turpis. Nunc at odio posuere nibh varius bibendum. Mauris non nibh lorem. Cras suscipit eleifend orci id tristique. Phasellus auctor magna vel gravida placerat. Nulla eget nunc tempus, efficitur mauris in, ultricies nulla.</p>
+
+            <p>Donec posuere viverra sem, vitae bibendum ligula gravida id. Nulla ullamcorper nisl erat, sed vestibulum tortor fermentum semper. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer ac blandit nibh, quis finibus sem. Suspendisse potenti. Morbi pellentesque erat a augue tristique fermentum. Quisque vitae urna eu nibh posuere sodales at lobortis quam. Curabitur vel vehicula dui, ac gravida nisi.</p>
+          </div>
+        </div>
+        <div class="banner">
+          <div class="column">
+            <div class="logo">
+              <img src="logo_transparent_background.png" alt="RC logo" height="100px">
+            </div>
+            <p>Your logo description text here</p>
+            <div style="display: flex; gap: 50px;">
+              <a href="https://www.acams.org/en">
+                <img src="ACAMS_CAMS_Crest_354.webp" alt="Accreditation Logo 1">
+              </a>
+              <a href="https://www.acfe.com/">
+                <img src="association-of-certified-fraud-examiners-acfe-logo-vector.png" alt="Accreditation Logo 2" style="margin-top: 15px;">
+              </a>
+              <a href="https://blockchaingroup.io/">
+                <img src="big-blue-logo.svg" alt="Accreditation Logo 3" style="margin-top: 35px;">
+              </a>
+            </div>
+          </div>
+          <div class="column">
+            <h4>Services</h4>
+            <ul>
+              <li><a href="Digital_currency_risk_advisory.html"><b>Digital Currency Risk Advisory</b></a></li>
+              <li><a href="Financial_crime_compliance_risk_mitigation.html"><b>Financial Crime Compliance & Risk Mitigation</b></a></li>
+              <li><a href="Cyber_resilience_pen_testing.html"><b>Cyber Resilience and Penetration Testing</b></a></li>
+              <li><a href="Forensic_services.html"><b>Forensic Investigation Services</b></a></li>
+              <li><a href="Training_solutions.html"><b>Training Solutions</b></a></li>
+            </ul>
+          </div>
+          <div class="column">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="landing_page.html"><b>Home</b></a></li>
+              <li><a href="Principles.html"><b>Our Guiding Principles</b></a></li>
+              <li><a href="Services.html"><b>Our Services</b></a></li>
+              <li><a href="Insights.html"><b>Our Insights</b></a></li>
+              <li><a href="#"><b>Privacy Policy</b></a></li>
+            </ul>
+          </div>
+          <div class="column">
+            <h4>Get in Touch</h4>
+            <ul>
+              <li><a href="Contact.html"><b>Contact Us</b></a></li>
+              <li><a href="https://goo.gl/maps/GXdLTuVP48ngqLyj6"><i class='fa fa-map-marker'style='font-size:20px'></i> &nbsp;<b> Lynnwood Bridge, Lynwood Road, <br> &nbsp;&nbsp; &nbsp; 5th Floor Bloukrans Building, Pretoria</b></a></li>
+            </ul>
+            <img src="QR_code.jpg" alt="QR code">
+          </div>
+        </div>
+        <div id="footer">
+            <footer id="footer"><p>&copy; 2022 Red Cipher (Pty) Ltd. All rights reserved.</p></footer>
+        </div>
+      </div>
+  </body>
+  <script>
+    function MobileNav(){}
+      const hamburger = document.getElementById('hamburger');
+      const navigation = document.getElementById('navigation');
+
+      hamburger.addEventListener('click', () => {
+        navigation.classList.toggle('show');
+      });
+    </script>
+  </html>
